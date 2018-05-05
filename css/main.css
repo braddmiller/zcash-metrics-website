@@ -5,3 +5,8 @@ body {
   padding: 3rem 1.5rem;
   text-align: center;
 }
+
+.graph-fig, .graphdiv {
+  width:100% !important;
+
+}
