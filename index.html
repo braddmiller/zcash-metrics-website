@@ -19,18 +19,7 @@
   <body>
 
     <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-      <a class="navbar-brand" href="#">Zcash Privacy Metrics</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-
-      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="https://z.cash">Zcash Homepage <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
+      <a class="navbar-brand" href="https://z.cash"><img src="/img/full-zcash-white.png" style="max-width:100px;"/></a>
     </nav>
 
     <main role="main" class="container">
@@ -61,20 +50,32 @@
       </div><!--.row -->
       <br>
       <div class="row">
-        <div class="col-sm"><div id="graphdiv5" style=""></div> </div><!--.col-sm -->
+        <div class="col-sm">
+          <div id="graphdiv5" class="graphdiv"></div> 
+        </div><!--.col-sm -->
         <div class="col-sm">
             <div id="graphdiv1" class="graphdiv"></div>
         </div><!--.col-sm -->
       </div><!--.row -->
-
-      <div class="row">
-        <p>something</p>
+      <br><br>
+      <div class="row alert alert-secondary">
+            <div class="col">
+              <h2 class="display-4">Methodology</h2>
+              <hr class="my-4">
+              <p>These statistics are generated periodically by running the following scripts. These metrics will be improved and expanded upon in future releases and new data will be gathered periodically to update the graphs</p>
+            </div>
+            <div class="col">
+              <h5 class="display-5">Raw Data</h3>
+              <a href="https://github.com/Eirik0/privacymetrics">https://github.com/Eirik0/privacymetrics</a>
+              <hr class="my-4">
+              <h5 class="display-5">Calculate Statistics</h3>
+              <a href="https://github.com/braddmiller/zcash-privacy-metrics">https://github.com/braddmiller/zcash-privacy-metrics</a>
+              <hr class="my-4">
+              <h5 class="display-5">Website Code</h3>
+              <a href="https://github.com/braddmiller/zcash-metrics-website">https://github.com/braddmiller/zcash-metrics-website</a>
+            </div>
       </div>
     </main><!-- /.container -->
-    <footer>
-      This is the footer
-    </footer>
-
     <!-- Bootstrap core JavaScript
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
